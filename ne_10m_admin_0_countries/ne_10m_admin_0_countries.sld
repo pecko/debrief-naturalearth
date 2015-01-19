@@ -7,6 +7,7 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Simple Line</se:Name>
+          <se:MaxScaleDenominator>7500000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:CssParameter name="fill">#ebdbbc</se:CssParameter>
