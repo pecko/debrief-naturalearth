@@ -20,7 +20,7 @@
               <se:CssParameter name="font-family">Arial</se:CssParameter>
               <se:CssParameter name="font-size">10</se:CssParameter>
               <se:CssParameter name="font-style">normal</se:CssParameter>
-              <se:CssParameter name="font-weight">normal</se:CssParameter>
+              <se:CssParameter name="font-weight">bold</se:CssParameter>
             </se:Font>
             <se:Fill>
               <se:CssParameter name="fill">#76787A</se:CssParameter>
