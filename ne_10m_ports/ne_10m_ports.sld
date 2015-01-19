@@ -17,7 +17,7 @@
               <ogc:PropertyName>name</ogc:PropertyName>
             </se:Label>
             <se:Font>
-              <se:CssParameter name="font-family">Times New Roman</se:CssParameter>
+              <se:CssParameter name="font-family">Arial</se:CssParameter>
               <se:CssParameter name="font-size">12</se:CssParameter>
               <se:CssParameter name="font-style">normal</se:CssParameter>
               <se:CssParameter name="font-weight">normal</se:CssParameter>
