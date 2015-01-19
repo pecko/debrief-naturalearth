@@ -15,9 +15,14 @@
             <se:Label>
               <ogc:PropertyName>name</ogc:PropertyName>
             </se:Label>
-            <se:Font/>
+            <se:Font>
+              <se:CssParameter name="font-family">Times New Roman</se:CssParameter>
+              <se:CssParameter name="font-size">15</se:CssParameter>
+              <se:CssParameter name="font-style">italic</se:CssParameter>
+              <se:CssParameter name="font-weight">normal</se:CssParameter>
+            </se:Font>
             <se:Fill>
-              <se:SvgParameter name="fill">#000000</se:SvgParameter>
+              <se:CssParameter name="fill">#1F78B4</se:CssParameter>
             </se:Fill>
           </se:TextSymbolizer>
         </se:Rule>

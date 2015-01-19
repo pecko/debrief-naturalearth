@@ -9,12 +9,12 @@
           <se:Name>Single symbol</se:Name>
           <se:PolygonSymbolizer>
             <se:Fill>
-              <se:SvgParameter name="fill">#ebdbbc</se:SvgParameter>
+              <se:CssParameter name="fill">#ebdbbc</se:CssParameter>
             </se:Fill>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#6c6c6c</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.26</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:CssParameter name="stroke">#6c6c6c</se:CssParameter>
+              <se:CssParameter name="stroke-width">0.26</se:CssParameter>
+              <se:CssParameter name="stroke-linejoin">bevel</se:CssParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>

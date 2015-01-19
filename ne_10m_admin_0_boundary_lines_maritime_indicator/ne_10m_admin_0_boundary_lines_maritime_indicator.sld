@@ -9,10 +9,10 @@
           <se:Name>Single symbol</se:Name>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#4e80ca</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.8</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:CssParameter name="stroke">#4e80ca</se:CssParameter>
+              <se:CssParameter name="stroke-width">0.8</se:CssParameter>
+              <se:CssParameter name="stroke-linejoin">bevel</se:CssParameter>
+              <se:CssParameter name="stroke-linecap">square</se:CssParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>

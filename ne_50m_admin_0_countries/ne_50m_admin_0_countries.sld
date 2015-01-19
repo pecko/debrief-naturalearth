@@ -9,10 +9,10 @@
           <se:Name>Single symbol</se:Name>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#d0a275</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:CssParameter name="stroke">#d0a275</se:CssParameter>
+              <se:CssParameter name="stroke-width">0.5</se:CssParameter>
+              <se:CssParameter name="stroke-linejoin">bevel</se:CssParameter>
+              <se:CssParameter name="stroke-linecap">square</se:CssParameter>
             </se:Stroke>
           </se:LineSymbolizer>
           <se:TextSymbolizer>
@@ -20,13 +20,13 @@
               <ogc:PropertyName>name</ogc:PropertyName>
             </se:Label>
             <se:Font>
-              <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-              <se:SvgParameter name="font-size">12</se:SvgParameter>
-              <se:SvgParameter name="font-style">normal</se:SvgParameter>
-              <se:SvgParameter name="font-weight">bold</se:SvgParameter>
+              <se:CssParameter name="font-family">Arial</se:CssParameter>
+              <se:CssParameter name="font-size">12</se:CssParameter>
+              <se:CssParameter name="font-style">normal</se:CssParameter>
+              <se:CssParameter name="font-weight">bold</se:CssParameter>
             </se:Font>
             <se:Fill>
-              <se:SvgParameter name="fill">#967554</se:SvgParameter>
+              <se:CssParameter name="fill">#967554</se:CssParameter>
             </se:Fill>
           </se:TextSymbolizer>
         </se:Rule>
