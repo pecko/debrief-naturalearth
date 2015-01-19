@@ -8,7 +8,6 @@
         <se:Rule>
           <se:Name>Single symbol</se:Name>
           <se:MinScaleDenominator>45000001</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>9915000001</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:CssParameter name="fill">#ebdbbc</se:CssParameter>

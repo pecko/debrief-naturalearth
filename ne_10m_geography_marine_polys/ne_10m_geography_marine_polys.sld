@@ -7,6 +7,7 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Single symbol</se:Name>
+          <se:MaxScaleDenominator>7500000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:CssParameter name="fill">#a5bfdd</se:CssParameter>

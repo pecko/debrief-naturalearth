@@ -11,6 +11,7 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Single symbol</se:Name>
+          <se:MinScaleDenominator>7500001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>15000000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Label>
