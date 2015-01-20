@@ -12,7 +12,21 @@
         <se:Rule>
           <se:Name>Single symbol</se:Name>
           <se:MinScaleDenominator>7500001</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>15000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>45000000</se:MaxScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>circle</se:WellKnownName>
+                <se:Fill>
+                  <se:CssParameter name="fill">#76787a</se:CssParameter>
+                </se:Fill>
+                <se:Stroke>
+                  <se:CssParameter name="stroke">#76787a</se:CssParameter>
+                </se:Stroke>
+              </se:Mark>
+              <se:Size>5</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>name</ogc:PropertyName>
@@ -20,9 +34,22 @@
             <se:Font>
               <se:CssParameter name="font-family">Arial</se:CssParameter>
               <se:CssParameter name="font-size">10</se:CssParameter>
-              <se:CssParameter name="font-style">normal</se:CssParameter>
+              <se:CssParameter name="font-style">italic</se:CssParameter>
               <se:CssParameter name="font-weight">bold</se:CssParameter>
             </se:Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.5</AnchorPointX>
+               <AnchorPointY>0.0</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>0</DisplacementX>
+               <DisplacementY>2</DisplacementY>
+             </Displacement>
+             <Rotation>0</Rotation>
+           </PointPlacement>
+         </LabelPlacement> 
             <se:Fill>
               <se:CssParameter name="fill">#76787A</se:CssParameter>
             </se:Fill>
