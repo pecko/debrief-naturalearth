@@ -7,14 +7,14 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Simple Line</se:Name>
-          <se:MaxScaleDenominator>10000000</se:MaxScaleDenominator>
+          <se:MinScaleDenominator>45000001</se:MinScaleDenominator>
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>name</ogc:PropertyName>
             </se:Label>
             <se:Font>
               <se:CssParameter name="font-family">Times New Roman</se:CssParameter>
-              <se:CssParameter name="font-size">16</se:CssParameter>
+              <se:CssParameter name="font-size">12</se:CssParameter>
               <se:CssParameter name="font-style">italic</se:CssParameter>
               <se:CssParameter name="font-weight">normal</se:CssParameter>
             </se:Font>
@@ -26,12 +26,12 @@
              </AnchorPoint>
              <Displacement>
                <DisplacementX>0</DisplacementX>
-               <DisplacementY>-8</DisplacementY>
+               <DisplacementY>2</DisplacementY>
              </Displacement>
              <Rotation>0</Rotation>
            </PointPlacement>
-         </LabelPlacement>   
-            <se:Fill>
+         </LabelPlacement>       
+      <se:Fill>
               <se:CssParameter name="fill">#1F78B4</se:CssParameter>
             </se:Fill>
           </se:TextSymbolizer>
