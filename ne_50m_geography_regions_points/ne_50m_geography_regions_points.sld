@@ -24,7 +24,7 @@
                   <se:CssParameter name="stroke">#76787a</se:CssParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>5</se:Size>
+              <se:Size>5.0</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
           <se:TextSymbolizer>
