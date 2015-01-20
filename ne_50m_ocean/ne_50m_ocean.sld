@@ -7,7 +7,7 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Single symbol</se:Name>
-          <se:MinScaleDenominator>7500001</se:MinScaleDenominator>
+          <se:MinScaleDenominator>10000001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>45000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
