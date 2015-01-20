@@ -13,7 +13,7 @@
         <Rule>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#905AC7</CssParameter>
+              <CssParameter name="fill">#5A8DC7</CssParameter>
             </Fill>
             <!-- line color
             <Stroke>
