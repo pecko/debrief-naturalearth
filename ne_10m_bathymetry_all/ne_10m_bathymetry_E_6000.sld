@@ -11,6 +11,7 @@
       <Title>Polygon style</Title>
       <FeatureTypeStyle>
         <Rule>
+          <MaxScaleDenominator>10000000</MaxScaleDenominator>          
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4D84C2</CssParameter>
