@@ -27,9 +27,21 @@
               <se:CssParameter name="font-family">Arial</se:CssParameter>
               <se:CssParameter name="font-size">10</se:CssParameter>
               <se:CssParameter name="font-style">normal</se:CssParameter>
-              <se:CssParameter name="font-weight">bold</se:CssParameter>
+              <se:CssParameter name="font-weight">normal</se:CssParameter>
             </se:Font>
-            <se:Fill>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.5</AnchorPointX>
+               <AnchorPointY>0.0</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>0</DisplacementX>
+               <DisplacementY>-5</DisplacementY>
+             </Displacement>
+             <Rotation>0</Rotation>
+           </PointPlacement>
+         </LabelPlacement>             <se:Fill>
               <se:CssParameter name="fill">#967554</se:CssParameter>
             </se:Fill>
           </se:TextSymbolizer>

@@ -7,7 +7,7 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Single symbol</se:Name>
-          <se:MinScaleDenominator>7500001</se:MinScaleDenominator>
+          <se:MinScaleDenominator>10000001</se:MinScaleDenominator>
           <se:MaxScaleDenominator>45000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
@@ -27,8 +27,21 @@
               <se:CssParameter name="font-family">Arial</se:CssParameter>
               <se:CssParameter name="font-size">12</se:CssParameter>
               <se:CssParameter name="font-style">normal</se:CssParameter>
-              <se:CssParameter name="font-weight">bold</se:CssParameter>
+              <se:CssParameter name="font-weight">normal</se:CssParameter>
             </se:Font>
+         <LabelPlacement>
+           <PointPlacement>
+             <AnchorPoint>
+               <AnchorPointX>0.5</AnchorPointX>
+               <AnchorPointY>0.0</AnchorPointY>
+             </AnchorPoint>
+             <Displacement>
+               <DisplacementX>0</DisplacementX>
+               <DisplacementY>-6</DisplacementY>
+             </Displacement>
+             <Rotation>0</Rotation>
+           </PointPlacement>
+         </LabelPlacement>   
             <se:Fill>
               <se:CssParameter name="fill">#967554</se:CssParameter>
             </se:Fill>
